@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+<base href="https://www.christophermanning.org" />
+<title>Writing - Christopher Manning</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="Description" content="Christopher Manning lives in Chicago, Illinois where he works as a software engineer.">
+
+
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Writing" />
+
+
+	<meta property="og:url" content="https://www.christophermanning.org/writing//" />
+
+
+	<meta property="og:site_name" content="Christopher Manning" />
+
+
+<link rel="alternate" type="application/rss+xml" title="Christopher Manning" href="https://www.christophermanning.org/feed.xml">
+<!-- Bootstrap -->
+<link href="/css/cosmo/bootstrap.min.css" rel="stylesheet" media="screen">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lazysizes/1.3.1/lazysizes.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<link rel="shortcut icon" href="https://www.christophermanning.org/favicon.ico?v=2">
+</head>
+<body>
+<div class="navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://www.christophermanning.org">Christopher Manning</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav">
+        
+        
+          
+            <li >
+              <a href="/about" title="">About</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/projects" title="">Projects</a>
+            </li>
+          
+        
+          
+            <li class="active">
+              <a href="/writing" title="">Writing</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h1 class="category">Writing</h1>
+
+
+
+
+  
+  <h2><a href="/writing/random-hacks-of-kindness-milwaukee">Random Hacks of Kindness Milwaukee</a></h2>
+  
+    <p><a href="/images/2011/12/waterquality-spec.jpg"><img class="thumbnail pull-right" title="waterquality-spec" src="/images/2011/12/waterquality-spec.jpg" alt="" width="300" height="380" /></a>
+
+<p>
+A friend invited me to <a href="http://www.rhok.org/event/milwaukee-wi-usa">Random Hacks of Kindness in Milwaukee</a>. I haven't been to Milwaukee or a hackathon in sometime, so I was excited to visit the city and meet other developers.
+
+<p>
+I met my friend downtown at 6:30am, but since I was so preoccupied the night before with submitting my Apps for Metro Chicago, IL entry before the midnight deadline, I overlooked the fact that I had to buy a travel ticket in advance. I managed to get a ticket at the last-minute and was on my way with about 5 hours of sleep under my belt. Half way through the trip my friend asked me if I brought my ticket to the event. I didn't even register! I was clearly flying by the seat of my pants on this one. At least I had my trusty T61 laptop.
+
+
+
+</p>
+    
+      <small><a class="btn btn-primary btn-xs" href="/writing/random-hacks-of-kindness-milwaukee">read more &raquo;</a></small>
+    
+  
+  <div class="clearfix"></div>
+  
+
+  
+  <h2><a href="/writing/make-flickr-shapes-json-parsable">Make Flickr shapes JSON parsable</a></h2>
+  
+    <p><p>
+<strong>Update</strong>: Flickr has released <a href="http://code.flickr.net/2012/10/24/2273/">version 2.0.1</a> so this is no longer necessary. Thanks Flickr :D
+
+
+</p>
+    
+      <small><a class="btn btn-primary btn-xs" href="/writing/make-flickr-shapes-json-parsable">read more &raquo;</a></small>
+    
+  
+  <div class="clearfix"></div>
+  
+
+  
+  <h2><a href="/writing/internal-type-juggling-in-php-5-2-vs-php-5-3">Internal Type Juggling in PHP 5.2 vs PHP 5.3</a></h2>
+  
+    <p><p>
+There is an undocumented case where the output of an internal function is different in PHP 5.2 vs PHP 5.3 when you pass it an invalid argument.
+
+
+
+</p>
+    
+      <small><a class="btn btn-primary btn-xs" href="/writing/internal-type-juggling-in-php-5-2-vs-php-5-3">read more &raquo;</a></small>
+    
+  
+  <div class="clearfix"></div>
+  
+
+  
+  <h2><a href="/writing/dont-use-maxlength-on-password-inputs">Don't Use maxlength on Password Inputs</a></h2>
+  
+    <p><p>
+On the <a href="http://www.w3.org/TR/html401/interact/forms.html" rel="external">HTML input form element</a>, you must define a type and may define a maxlength attribute. This is in regards to the password type and the relation it has to the maxlength attribute. If the maxlength on a password input is wider than the width of the input, there is no way to tell if what you are typing (or pasting) is actually going into the field.
+
+<p>
+Below are two test forms that will illustrate my point. Each form looks identical, but have much larger implications in practice. Test the following <a href="http://keepass.info/" rel="external">KeePass</a> generated password in the following forms:
+
+<p><strong>f7cef761bb0c51db6811c27a752bff49</strong></p>
+
+<script type="text/javascript">
+$(function(){
+$('form.max-password input[type=password]').change(function(e){
+  var expected = 'f7cef761bb0c51db6811c27a752bff49'
+  var password = $(this).val();
+  $(this).next('label').html('<span style="font-weight:bold;color:'+(password==expected?'green':'red')+';">'+password+' '+(password==expected?'==':'!=')+' '+expected+'</span>');
+});
+});
+</script>
+
+<form class="max-password">
+  <div class="form-group">
+    <input class="form-control" type="password" placeholder='With maxlength="30"' maxlength="30" style="width: 200px">
+    <label class="control-label"></label>
+  </div>
+
+  <div class="form-group">
+    <input class="form-control" type="password" placeholder="Without maxlength" style="width: 200px">
+    <label class="control-label"></label>
+  </div>
+</form>
+
+<p>
+What you have just experienced is a problem that exists on many website's user registration. If this were a real user registration, the password you entered will not completely save and you will be locked out when attempting to log in. This happens when sites validate the length of the password by specifying a maxlength as opposed to correctly checking its length during the form processing. Overall, using client side markup to validate form values is precarious. Therefore, maxlength should be limited to text input types, if it is backed up by server side validation.
+
+<p>
+P.S. Stop putting maximum length requirements on passwords, period. Just hash the password and store that. And no, password retrieval is not an excuse; have the user reset their password instead.
+</p>
+    
+  
+  <div class="clearfix"></div>
+  
+
+  
+  <h2><a href="/writing/load-bearing-code">Load-bearing Code</a></h2>
+  
+    <p><p>
+The term 'load-bearing code' can be used to refer to software that exhibits the following attributes.
+
+<ul>
+<li>Has no documentation or automated tests</li>
+<li>Written by an ex-developer</li>
+<li>Used by a large portion of the code base</li>
+<li>Supports critical system processes</li>
+</ul>
+
+<blockquote>
+  <p>Jerry, these are load-bearing walls, they're not gonna come down!</p>
+  <small>Cosmo Kramer in the Seinfeld episode <a href="http://en.wikipedia.org/wiki/The_Chicken_Roaster">"The Chicken Roaster"</a></small>
+</blockquote>
+
+<p>
+I have encountered load-bearing code in legacy open source applications, inherited projects, or debugging production software.
+</p>
+    
+  
+  <div class="clearfix"></div>
+  
+
+  
+  <h2><a href="/writing/calculating-different-mii-combinations">Calculating Different Mii Combinations</a></h2>
+  
+    <p><img src="/images/2011/08/mii.jpg" alt="" title="Christopher Manning&#039;s Mii" width="130" height="257" class="pull-right" />
+
+<p>
+On November 19th 2006, I set out with a friend to buy a Wii on launch day. After futilely showing up at about five stores, we took a chance at this small electronic boutique with ten people waiting outside. After getting into line at eleventh place, I was hearing murmurs of this place only having ten Wiis. We decided to wait the hour and a half and hope for an extra Wii. Five minutes to 11:00 am, this girl that was second in line with her boyfriend decided she was hungry and went to get a bite. Much to my surprise, when the guy came out of the store to tag who would get a Wii, she wasn't there and I got the tenth and last Wii they had.
+
+
+
+</p>
+    
+      <small><a class="btn btn-primary btn-xs" href="/writing/calculating-different-mii-combinations">read more &raquo;</a></small>
+    
+  
+  <div class="clearfix"></div>
+  
+
+  
+  <h2><a href="/writing/click-here-to-go-to-a-web-page-about-the-overuse-of-click-here">Click here to go to a web page about the overuse of 'click here'</a></h2>
+  
+    <p><p>
+As with many early internet paradigms 'click here' has become the equivalent of the verbal overuse of 'like': an unnecessary filler before getting to the real point.
+
+<h4>Admitting You Have a Problem</h4>
+It is worth realizing that yours is not the first web site your user has seen (unless you are the operator of acoolwebsite.com). For the rest of us, telling a user what to do with a hyperlink is on par with having instructions on how to scroll and see the rest of a web page. Is it underlined? Does it react when I hover over it? Does it stand out from the rest of the text? If so, I know it's a link and I have a pretty good clue what is going to happen if I click it. The text of a link should answer a user's questions. "Where do I go to read more of this article" should translate to a 'Read more' link. "How do I get to the next page" gives us a 'Next page' link. "What is this web site's privacy policy" can turn into 'Privacy'.
+
+<h4>Wait, What?</h4>
+<ul>
+  <li><a href="/writing/click-here-to-go-to-a-web-page-about-the-overuse-of-click-here">Click here</a> to go to a web page about the overuse of 'click here'</li>
+  <li>Click <a href="/writing/click-here-to-go-to-a-web-page-about-the-overuse-of-click-here">here</a> to go to a web page about the overuse of 'click here'</li>
+  <li><a href="/writing/click-here-to-go-to-a-web-page-about-the-overuse-of-click-here">Click here to go to a web page about the overuse of 'click here'</a></li>
+  <li>Click here to <a href="/writing/click-here-to-go-to-a-web-page-about-the-overuse-of-click-here">go to a web page about the overuse of 'click here'</a></li>
+</ul>
+
+<h4>Obviously We Have a Problem</h4>
+<table class="zebra"><tbody>
+<tr><th>Search Term</th><th>Results from Google</th></tr>
+<tr><td>"click here"</td><td>1,620,000,000</td></tr>
+<tr><td>"click here to"</td><td>831,000,000</td></tr>
+<tr><td>"click here to go"</td><td>16,800,000</td></tr>
+<tr><td>"click here to go to"</td><td>7,730,000</td></tr>
+<tr><td>"click here to go to a web page about the overuse of 'click here'"</td><td><a href="http://www.google.com/search?q=%22click+here+to+go+to+a+web+page+about+the+overuse+of+%27click+here%27%22" rel="external">1 unique</a></td></tr>
+</tbody></table>
+
+<h4>Solace</h4>
+<a href="/writing/click-here-to-go-to-a-web-page-about-the-overuse-of-click-here">The overuse of 'click here'</a>
+In conclusion, I believe using a 'click here' qualifier to help the user actually makes it more confusing considering how inconsistent the 'Click here' linking can be. Any argument for keeping it I would have to rebut with the actualization that you would have to put 'click here' in front of every link. Imagining a menu navigation with that much filler should clarify my point.
+</p>
+    
+  
+  <div class="clearfix"></div>
+  
+
+  
+  <h2><a href="/writing/how-to-prevent-your-debit-card-signature-from-smearing">How to Prevent Your Debit Card Signature from Smearing</a></h2>
+  
+    <p><p>I have recently changed financial institutions. I received my new debit card the other day which reminded me of a strategy of mine.</p>
+
+<p>I carry my debit card in my pocket and, in past iterations, my signature line would smear off causing problems at the checkout.</p>
+
+<p>Now, when I get a new debit card, I make sure to take a strip of scotch tape and cover over the signed signature area on the back of the card.</p>
+
+<p>Once the tape is in place, it is trimmed to size. My previous debit card’s signature line is still in as good of shape as it was when I attached it two years ago.</p>
+
+<p>Previously I attempted to tape over more areas to preserve the number shine and the magnetic stripe, but those proved to cause errors in scan reads or elicit peculiar looks at the checkout.</p>
+</p>
+    
+  
+  <div class="clearfix"></div>
+  
+
+
+  <div class="clearfix">&nbsp;</div>
+  <footer style="margin: 5em 0;">
+    <div class="row">
+      <div>
+        <ul class="list-unstyled">
+          <li class="pull-right"><a href="#top">Back to top</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

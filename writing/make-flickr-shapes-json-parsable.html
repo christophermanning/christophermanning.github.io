@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<base href="https://www.christophermanning.org" />
+<title>Make Flickr shapes JSON parsable - Christopher Manning</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="Description" content="Christopher Manning lives in Chicago, Illinois where he works as a software engineer.">
+
+
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Make Flickr shapes JSON parsable" />
+
+
+	<meta property="og:url" content="https://www.christophermanning.org/writing/make-flickr-shapes-json-parsable/" />
+
+
+	<meta property="og:site_name" content="Christopher Manning" />
+
+
+	<meta property="article:published_time" content="2011-11-02T00:00:00+00:00" />
+
+<link rel="alternate" type="application/rss+xml" title="Christopher Manning" href="https://www.christophermanning.org/feed.xml">
+<!-- Bootstrap -->
+<link href="/css/cosmo/bootstrap.min.css" rel="stylesheet" media="screen">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lazysizes/1.3.1/lazysizes.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<link rel="shortcut icon" href="https://www.christophermanning.org/favicon.ico?v=2">
+</head>
+<body>
+<div class="navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://www.christophermanning.org">Christopher Manning</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav">
+        
+        
+          
+            <li >
+              <a href="/about" title="">About</a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="/projects" title="">Projects</a>
+            </li>
+          
+        
+          
+            <li class="active">
+              <a href="/writing" title="">Writing</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h1>Make Flickr shapes JSON parsable</h1>
+
+<div><p>
+<strong>Update</strong>: Flickr has released <a href="http://code.flickr.net/2012/10/24/2273/">version 2.0.1</a> so this is no longer necessary. Thanks Flickr :D
+<!--more-->
+<hr>
+
+<p>
+The Flickr shapes available at <a href="http://code.flickr.com/blog/2011/01/08/flickr-shapefiles-public-dataset-2-0/" rel="external">http://code.flickr.com/blog/2011/01/08/flickr-shapefiles-public-dataset-2-0/</a> are not parsable with <code>JSON.parse()</code> because of a trailing comma before a closing curly brace. I was able to narrow the problem down to those trailing commas using the <a href="http://json.parser.online.fr/" rel="external">Json Parser Online</a> tool. Then, I used <a href="http://regexpal.com/" rel="external">RegexPal</a> to create the <code>,(\s+})</code> regular expression to fix the syntax error.
+
+<p>
+I've created a python script that will will download the Flickr shapes archive (if it doesn't already exist in the working directory) and update the files to be JSON parsable. Now, those GeoJSON files can be read by libraries like <a href="http://polymaps.org" rel="external">Polymaps</a>.
+<script src="https://gist.github.com/christophermanning/1334341.js?file=make_flickr_shapes_json_parsable.py"></script>
+</div>
+
+<div class="clearfix">&nbsp;</div>
+
+<hr>
+
+<small>November  2, 2011</small>
+
+  <div class="clearfix">&nbsp;</div>
+  <footer style="margin: 5em 0;">
+    <div class="row">
+      <div>
+        <ul class="list-unstyled">
+          <li class="pull-right"><a href="#top">Back to top</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

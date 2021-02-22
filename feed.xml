@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<generator uri="http://jekyllrb.com" version="3.0.5">Jekyll</generator>
+<link href="/feed.xml" rel="self" type="application/atom+xml" />
+<link href="/" rel="alternate" type="text/html" />
+<updated>2021-02-22T16:42:46+00:00</updated>
+<id>/</id>
+<title>Christopher Manning</title>
+<subtitle>Christopher Manning lives in Chicago, Illinois where he works as a software engineer.</subtitle>
+<entry>
+<title>Observable Notebooks</title>
+<link href="https://observablehq.com/@christophermanning" rel="alternate" type="text/html" title="Observable Notebooks" />
+<published>2021-01-01T00:00:00+00:00</published>
+<updated>2021-01-01T00:00:00+00:00</updated>
+<id>/projects/observable-notebooks</id>
+<content type="html" xml:base="https://observablehq.com/@christophermanning">&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;meta charset=utf-8&amp;gt;&lt;/p&gt;
+&lt;title&gt;Redirecting...&lt;/title&gt;
+&lt;p&gt;&amp;lt;link rel=canonical href=”https://observablehq.com/@christophermanning”&amp;gt;
+&amp;lt;meta http-equiv=refresh content=”0; url=https://observablehq.com/@christophermanning”&amp;gt;&lt;/p&gt;
+&lt;h1&gt;Redirecting...&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://observablehq.com/@christophermanning&quot;&gt;Click here if you are not redirected.&lt;/a&gt;
+&lt;script&gt;location=&#39;https://observablehq.com/@christophermanning&#39;&lt;/script&gt;&lt;/p&gt;
+</content>
+<category term="D3.js" />
+<category term="javascript" />
+<category term="visualization" />
+<summary></summary>
+</entry>
+<entry>
+<title>Random Walk USA</title>
+<link href="https://bl.ocks.org/christophermanning/8203750" rel="alternate" type="text/html" title="Random Walk USA" />
+<published>2014-01-01T00:00:00+00:00</published>
+<updated>2014-01-01T00:00:00+00:00</updated>
+<id>/projects/random-walk-usa</id>
+<content type="html" xml:base="https://bl.ocks.org/christophermanning/8203750">&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;meta charset=utf-8&amp;gt;&lt;/p&gt;
+&lt;title&gt;Redirecting...&lt;/title&gt;
+&lt;p&gt;&amp;lt;link rel=canonical href=”https://bl.ocks.org/christophermanning/8203750”&amp;gt;
+&amp;lt;meta http-equiv=refresh content=”0; url=https://bl.ocks.org/christophermanning/8203750”&amp;gt;&lt;/p&gt;
+&lt;h1&gt;Redirecting...&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://bl.ocks.org/christophermanning/8203750&quot;&gt;Click here if you are not redirected.&lt;/a&gt;
+&lt;script&gt;location=&#39;https://bl.ocks.org/christophermanning/8203750&#39;&lt;/script&gt;&lt;/p&gt;
+</content>
+<category term="projects" />
+<summary></summary>
+</entry>
+<entry>
+<title>Kaprekar Routine</title>
+<link href="https://bl.ocks.org/christophermanning/6468148" rel="alternate" type="text/html" title="Kaprekar Routine" />
+<published>2013-09-06T00:00:00+00:00</published>
+<updated>2013-09-06T00:00:00+00:00</updated>
+<id>/projects/kaprekar-routine</id>
+<content type="html" xml:base="https://bl.ocks.org/christophermanning/6468148">&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;meta charset=utf-8&amp;gt;&lt;/p&gt;
+&lt;title&gt;Redirecting...&lt;/title&gt;
+&lt;p&gt;&amp;lt;link rel=canonical href=”https://bl.ocks.org/christophermanning/6468148”&amp;gt;
+&amp;lt;meta http-equiv=refresh content=”0; url=https://bl.ocks.org/christophermanning/6468148”&amp;gt;&lt;/p&gt;
+&lt;h1&gt;Redirecting...&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://bl.ocks.org/christophermanning/6468148&quot;&gt;Click here if you are not redirected.&lt;/a&gt;
+&lt;script&gt;location=&#39;https://bl.ocks.org/christophermanning/6468148&#39;&lt;/script&gt;&lt;/p&gt;
+</content>
+<category term="projects" />
+<summary></summary>
+</entry>
+<entry>
+<title>CTA Line Simplification</title>
+<link href="https://bl.ocks.org/christophermanning/6203413" rel="alternate" type="text/html" title="CTA Line Simplification" />
+<published>2013-08-11T00:00:00+00:00</published>
+<updated>2013-08-11T00:00:00+00:00</updated>
+<id>/projects/cta-line-simplification</id>
+<content type="html" xml:base="https://bl.ocks.org/christophermanning/6203413">&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;meta charset=utf-8&amp;gt;&lt;/p&gt;
+&lt;title&gt;Redirecting...&lt;/title&gt;
+&lt;p&gt;&amp;lt;link rel=canonical href=”https://bl.ocks.org/christophermanning/6203413”&amp;gt;
+&amp;lt;meta http-equiv=refresh content=”0; url=https://bl.ocks.org/christophermanning/6203413”&amp;gt;&lt;/p&gt;
+&lt;h1&gt;Redirecting...&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://bl.ocks.org/christophermanning/6203413&quot;&gt;Click here if you are not redirected.&lt;/a&gt;
+&lt;script&gt;location=&#39;https://bl.ocks.org/christophermanning/6203413&#39;&lt;/script&gt;&lt;/p&gt;
+</content>
+<category term="projects" />
+<summary></summary>
+</entry>
+<entry>
+<title>Unknown Pleasures</title>
+<link href="https://bl.ocks.org/christophermanning/4289018" rel="alternate" type="text/html" title="Unknown Pleasures" />
+<published>2012-12-14T00:00:00+00:00</published>
+<updated>2012-12-14T00:00:00+00:00</updated>
+<id>/projects/unknown-pleasures</id>
+<content type="html" xml:base="https://bl.ocks.org/christophermanning/4289018">&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;meta charset=utf-8&amp;gt;&lt;/p&gt;
+&lt;title&gt;Redirecting...&lt;/title&gt;
+&lt;p&gt;&amp;lt;link rel=canonical href=”https://bl.ocks.org/christophermanning/4289018”&amp;gt;
+&amp;lt;meta http-equiv=refresh content=”0; url=https://bl.ocks.org/christophermanning/4289018”&amp;gt;&lt;/p&gt;
+&lt;h1&gt;Redirecting...&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://bl.ocks.org/christophermanning/4289018&quot;&gt;Click here if you are not redirected.&lt;/a&gt;
+&lt;script&gt;location=&#39;https://bl.ocks.org/christophermanning/4289018&#39;&lt;/script&gt;&lt;/p&gt;
+</content>
+<category term="projects" />
+<summary></summary>
+</entry>
+<entry>
+<title>Force-Directed Sierpinski Triangle</title>
+<link href="https://bl.ocks.org/christophermanning/4285420" rel="alternate" type="text/html" title="Force-Directed Sierpinski Triangle" />
+<published>2012-12-14T00:00:00+00:00</published>
+<updated>2012-12-14T00:00:00+00:00</updated>
+<id>/projects/force-directed-sierpinski-triangle</id>
+<content type="html" xml:base="https://bl.ocks.org/christophermanning/4285420">&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;meta charset=utf-8&amp;gt;&lt;/p&gt;
+&lt;title&gt;Redirecting...&lt;/title&gt;
+&lt;p&gt;&amp;lt;link rel=canonical href=”https://bl.ocks.org/christophermanning/4285420”&amp;gt;
+&amp;lt;meta http-equiv=refresh content=”0; url=https://bl.ocks.org/christophermanning/4285420”&amp;gt;&lt;/p&gt;
+&lt;h1&gt;Redirecting...&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://bl.ocks.org/christophermanning/4285420&quot;&gt;Click here if you are not redirected.&lt;/a&gt;
+&lt;script&gt;location=&#39;https://bl.ocks.org/christophermanning/4285420&#39;&lt;/script&gt;&lt;/p&gt;
+</content>
+<category term="projects" />
+<summary></summary>
+</entry>
+<entry>
+<title>Erdős–Rényi Force Directed Graph</title>
+<link href="https://bl.ocks.org/christophermanning/4187201" rel="alternate" type="text/html" title="Erdős–Rényi Force Directed Graph" />
+<published>2012-12-02T00:00:00+00:00</published>
+<updated>2012-12-02T00:00:00+00:00</updated>
+<id>/projects/erdos-renyi-force-directed-graph</id>
+<content type="html" xml:base="https://bl.ocks.org/christophermanning/4187201">&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;meta charset=utf-8&amp;gt;&lt;/p&gt;
+&lt;title&gt;Redirecting...&lt;/title&gt;
+&lt;p&gt;&amp;lt;link rel=canonical href=”https://bl.ocks.org/christophermanning/4187201”&amp;gt;
+&amp;lt;meta http-equiv=refresh content=”0; url=https://bl.ocks.org/christophermanning/4187201”&amp;gt;&lt;/p&gt;
+&lt;h1&gt;Redirecting...&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://bl.ocks.org/christophermanning/4187201&quot;&gt;Click here if you are not redirected.&lt;/a&gt;
+&lt;script&gt;location=&#39;https://bl.ocks.org/christophermanning/4187201&#39;&lt;/script&gt;&lt;/p&gt;
+</content>
+<category term="projects" />
+<summary></summary>
+</entry>
+<entry>
+<title>Building Hamiltonian Graphs from LCF Notation</title>
+<link href="https://bl.ocks.org/christophermanning/1703449" rel="alternate" type="text/html" title="Building Hamiltonian Graphs from LCF Notation" />
+<published>2012-11-14T00:00:00+00:00</published>
+<updated>2012-11-14T00:00:00+00:00</updated>
+<id>/projects/building-cubic-hamiltonian-graphs-from-lcf-notation</id>
+<content type="html" xml:base="https://bl.ocks.org/christophermanning/1703449">&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;meta charset=utf-8&amp;gt;&lt;/p&gt;
+&lt;title&gt;Redirecting...&lt;/title&gt;
+&lt;p&gt;&amp;lt;link rel=canonical href=”https://bl.ocks.org/christophermanning/1703449”&amp;gt;
+&amp;lt;meta http-equiv=refresh content=”0; url=https://bl.ocks.org/christophermanning/1703449”&amp;gt;&lt;/p&gt;
+&lt;h1&gt;Redirecting...&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://bl.ocks.org/christophermanning/1703449&quot;&gt;Click here if you are not redirected.&lt;/a&gt;
+&lt;script&gt;location=&#39;https://bl.ocks.org/christophermanning/1703449&#39;&lt;/script&gt;&lt;/p&gt;
+</content>
+<category term="D3.js" />
+<category term="visualization" />
+<summary></summary>
+</entry>
+<entry>
+<title>Chicago Ward Remap Outlines</title>
+<link href="https://bl.ocks.org/christophermanning/2271944" rel="alternate" type="text/html" title="Chicago Ward Remap Outlines" />
+<published>2012-04-01T00:00:00+00:00</published>
+<updated>2012-04-01T00:00:00+00:00</updated>
+<id>/projects/chicago-ward-remap-outlines</id>
+<content type="html" xml:base="https://bl.ocks.org/christophermanning/2271944">&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;meta charset=utf-8&amp;gt;&lt;/p&gt;
+&lt;title&gt;Redirecting...&lt;/title&gt;
+&lt;p&gt;&amp;lt;link rel=canonical href=”https://bl.ocks.org/christophermanning/2271944”&amp;gt;
+&amp;lt;meta http-equiv=refresh content=”0; url=https://bl.ocks.org/christophermanning/2271944”&amp;gt;&lt;/p&gt;
+&lt;h1&gt;Redirecting...&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://bl.ocks.org/christophermanning/2271944&quot;&gt;Click here if you are not redirected.&lt;/a&gt;
+&lt;script&gt;location=&#39;https://bl.ocks.org/christophermanning/2271944&#39;&lt;/script&gt;&lt;/p&gt;
+</content>
+<category term="chicago" />
+<category term="D3.js" />
+<category term="javascript" />
+<summary></summary>
+</entry>
+<entry>
+<title>Voronoi Diagram with Force Directed Nodes and Delaunay Links</title>
+<link href="https://bl.ocks.org/christophermanning/1734663" rel="alternate" type="text/html" title="Voronoi Diagram with Force Directed Nodes and Delaunay Links" />
+<published>2012-02-06T00:00:00+00:00</published>
+<updated>2012-02-06T00:00:00+00:00</updated>
+<id>/projects/voronoi-diagram-with-force-directed-nodes-and-delaunay-links</id>
+<content type="html" xml:base="https://bl.ocks.org/christophermanning/1734663">&lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;meta charset=utf-8&amp;gt;&lt;/p&gt;
+&lt;title&gt;Redirecting...&lt;/title&gt;
+&lt;p&gt;&amp;lt;link rel=canonical href=”https://bl.ocks.org/christophermanning/1734663”&amp;gt;
+&amp;lt;meta http-equiv=refresh content=”0; url=https://bl.ocks.org/christophermanning/1734663”&amp;gt;&lt;/p&gt;
+&lt;h1&gt;Redirecting...&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://bl.ocks.org/christophermanning/1734663&quot;&gt;Click here if you are not redirected.&lt;/a&gt;
+&lt;script&gt;location=&#39;https://bl.ocks.org/christophermanning/1734663&#39;&lt;/script&gt;&lt;/p&gt;
+</content>
+<category term="projects" />
+<category term="D3.js" />
+<category term="visualization" />
+<summary></summary>
+</entry>
+</feed>
